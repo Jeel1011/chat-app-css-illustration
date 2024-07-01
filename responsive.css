@@ -1,0 +1,32 @@
+
+/* responsiveness for mobile */
+@media only screen and (max-width: 840px){
+    .container__bg-rectangle-top{
+        height: 100%;
+        width: 60%;
+        top: -400px;
+        left: -60px;
+    }
+    .container__mobile{
+        margin: 0 auto;
+        left: 0;
+        top: 65px;
+    }
+    .container__home-detail{
+        display: inline-block;
+        position: static;
+        margin-top: 30%;
+        width: 100%;
+        padding: 0 32px 32px 32px;  
+    }
+    .container__home-detail .home-detail__title{
+        text-align: center;
+    }
+    .container__home-detail .home-detail__description{
+        text-align: center;
+    }
+    .container__bg-rectangle-down{
+        width: 45%;
+        height:50%;
+    } 
+}
